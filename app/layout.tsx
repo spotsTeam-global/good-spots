@@ -17,8 +17,8 @@ import Opensource from "@/components/home/open-source";
 export const metadata = {
   title: "Good Spots",
   description:
-    "Good spots curates the best spots around the world, a crowd sourced collections, no petty reviews or stars.",
-  metadataBase: new URL("https://goodspots.online"),
+    "Good spots curates the best spots around the world, Focus on the Journey, Capture the Moments.",
+  metadataBase: new URL("https://goodspots.app"),
 };
 
 export default async function RootLayout({
