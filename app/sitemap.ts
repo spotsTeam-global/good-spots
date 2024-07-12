@@ -11,7 +11,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   return [
     {
-      url: "https://precedent.dev",
+      url: "https://goodspots.online",
       lastModified: new Date(),
     },
     ...users.map((user) => ({

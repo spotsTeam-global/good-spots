@@ -7,13 +7,18 @@ import { Suspense } from "react";
 import { Analytics as VercelAnalytics } from "@vercel/analytics/react";
 import Info from "@/components/layout/info";
 import Card from "@/components/home/card";
+import AppInfo from "@/components/home/app-info";
+import Features from "@/components/home/features";
+import SignupFixed from "@/components/layout/signup-fixed";
+import Opensource from "@/components/home/open-source";
+
 
 
 export const metadata = {
   title: "Good Spots",
   description:
     "Good spots curates the best spots around the world, a crowd sourced collections, no petty reviews or stars.",
-  metadataBase: new URL("https://precedent.dev"),
+  metadataBase: new URL("https://goodspots.online"),
 };
 
 export default async function RootLayout({
@@ -24,14 +29,18 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <body className={cx(sfPro.variable, inter.variable)}>
-        <div className="fixed h-screen w-full bg-gradient-to-br from-indigo-50 via-white to-indigo-100" />
+        {/* <div className="fixed h-screen w-full bg-gradient-to-br from-indigo-50 via-white to-indigo-100" /> */}
         <Suspense fallback="...">
           <Nav />
         </Suspense>
         <main className="flex h-screen w-full flex-col items-center justify-center">
           {children}
-        </main>      
+        </main>
+        <AppInfo />
+        <Features />
+        <Opensource />
         <Footer />
+        <SignupFixed />
         <VercelAnalytics />
       </body>
     </html>
