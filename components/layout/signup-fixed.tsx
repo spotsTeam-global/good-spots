@@ -6,8 +6,9 @@ import { PlaceholdersAndVanishInput } from "../ui/signupvanish";
 export default function SignupFixed() {
 
     const placeholders = [
-        "Sign up for updates    ",
+        "Sign up here for updates",
         "It's the best waiting list ever",
+        "Email", 
         "We'll update you with our progress",
         "And you'll be the first to know when we launch",
         "Hope to see you there",
