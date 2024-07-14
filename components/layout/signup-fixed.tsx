@@ -7,11 +7,7 @@ export default function SignupFixed() {
 
     const placeholders = [
         "Sign up here for updates",
-        "It's the best waiting list ever",
-        "Email", 
-        "We'll update you with our progress",
-        "And you'll be the first to know when we launch",
-        "Hope to see you there",
+        "Enter your Email",
     ];
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
