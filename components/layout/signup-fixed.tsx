@@ -19,11 +19,11 @@ export default function SignupFixed() {
     };
 
     return (
-        <div className="fixed bottom-0 left-0 right-0 p-4 flex items-center justify-between text-white shadow-lg sm:m-6 md:m-1">
+        <div className="p-4 flex items-center justify-between text-white shadow-lg sm:m-6 md:m-1 bg-indigo-100 rounded-3xl">            
             <PlaceholdersAndVanishInput
                 placeholders={placeholders}
                 onChange={handleChange}
-                onSubmit={onSubmit}
+                onSubmit={onSubmit}                
             />
         </div>
     )

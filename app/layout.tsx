@@ -40,7 +40,7 @@ export default async function RootLayout({
         <Features />
         <Opensource />
         <Footer />
-        <SignupFixed />
+        {/* <SignupFixed /> */}
         <VercelAnalytics />
       </body>
     </html>
