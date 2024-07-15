@@ -46,7 +46,7 @@ export default function AppInfo() {
                                     Easily capture every memorable location with just a press of a button. Whether it’s a food truck, a cozy diner, a potential filming location, or your favorite park bench, Spots has you covered. Never forget a special place again with Spots.
                                 </p>
                                 <h3 className="mt-10 text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Sign up</h3>
-                                <p className="mt-6 text-lg leading-8 text-gray-600"> Join our waiting list for updates on when we're launching and be the first to get access</p>
+                                <p className="mt-6 text-lg leading-8 text-gray-600"> Join our waiting list for updates and be the first to get access</p>
                                 <div className="mt-8">                                    
                                     <SignupFixed />
                                 </div>
