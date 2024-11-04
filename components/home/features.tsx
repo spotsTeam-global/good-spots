@@ -1,26 +1,37 @@
 import Image from 'next/image'
 import maps from '../../public/iPhone 15 Pro.png'
-import { CloudArrowUpIcon, LockClosedIcon, ServerIcon, DevicePhoneMobileIcon, GlobeEuropeAfricaIcon, BookOpenIcon } from '@heroicons/react/20/solid'
+import {
+  CloudArrowUpIcon,
+  LockClosedIcon,
+  ServerIcon,
+  DevicePhoneMobileIcon,
+  GlobeEuropeAfricaIcon,
+  BookOpenIcon,
+  BriefcaseIcon,
+} from "@heroicons/react/20/solid";
 import FeatureImages from './feature-images'
+import { Description } from '@radix-ui/react-dialog'
 
 const features = [
-    {
-        name: 'Home screen widget + your voice = uninterupted adventures',
-        description:
-            'use spots home screen widget to save your location in an instant, add a quick voice note on the move and spots will transcribe it and save all the details in your proile. Keep exploring without the distraction of your socials.',
-        icon: DevicePhoneMobileIcon,
-    },
-    {
-        name: 'Create collections and share with friends.',
-        description: 'Restaurants, venues, hiking spots or anything you want, create collections of your favoruite spots. Share them with friends. Your parents won\'t have to search for a travel guide again!',
-        icon: GlobeEuropeAfricaIcon,
-    },
-    {
-        name: 'Location saver, archive, or travel journal?',
-        description: 'A simple app to save your locations or a complete Travel Journal right in your pocket, use it however you like.',
-        icon: BookOpenIcon,
-    },
-]
+  {
+    name: "Uninterupted adventures",
+    description:
+      "Use spots home screen widget to save your location in an instant, add a quick voice note on the move and spots will transcribe it and save all the details in your proile. Keep exploring without the distraction of your socials.",
+    icon: DevicePhoneMobileIcon,
+  },
+  {
+    name: "Create collections and share with friends.",
+    description:
+      "Restaurants, venues, hiking spots or anything you want, create collections of your favoruite spots. Share them with friends. Your parents won't have to search for a travel guide again!",
+    icon: GlobeEuropeAfricaIcon,
+  },
+  {
+    name: "Location saver, archive, or travel journal?",
+    description:
+      "A simple app to save your locations or a complete Travel Journal right in your pocket, use it however you like.",
+    icon: BookOpenIcon,
+  }
+];
 
 export default function Features() {
     return (
@@ -52,9 +63,9 @@ export default function Features() {
                     </dl>
                 </div>
             </div>
-            <div className="w-full p-4">
+            {/* <div className="w-full p-4">
                 <FeatureImages />
-            </div>
+            </div> */}
         </div>
     )
 }

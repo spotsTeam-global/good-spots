@@ -12,6 +12,7 @@ export default function Opensource() {
                         Connecting Environments
                     </h2>
                     <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-indigo-600">
+                        Along with our mobile app we are also devoloping Good spots. 
                         Discover the world’s best spots for photography, dining, fitness,
                         and more—all in one place. Good Spots is a curated list of the most
                         amazing locations, sourced by a community of passionate explorers
