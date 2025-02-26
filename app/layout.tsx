@@ -19,6 +19,9 @@ export const metadata = {
   description:
     "Good spots curates the best spots around the world, Focus on the Journey, Capture the Moments.",
   metadataBase: new URL("https://goodspots.app"),
+  itunes: {
+    appId:6740383237,
+  }
 };
 
 export default async function RootLayout({
