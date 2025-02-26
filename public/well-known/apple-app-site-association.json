@@ -1,0 +1,27 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "Z46V2TYBW4.com.ronanpdh.spots"
+        ],
+        "components": [
+          {
+            "/": "*",
+            "comment": "Matches all routes"
+          }
+        ]
+      }
+    ]
+  },
+  "activitycontinuation": {
+    "apps": [
+      "Z46V2TYBW4.com.ronanpdh.spots"
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "Z46V2TYBW4.com.ronanpdh.spots"
+    ]
+  }
+}
